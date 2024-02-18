@@ -6,13 +6,12 @@ function setup() {
 function draw() {
   fill(255);
   stroke(0);
-  strokeWeight(3
-              );
+  strokeWeight(4);
   
   if (mouseIsPressed) {
     rect(mouseX, mouseY, 100, 60);
     textSize(determineFontSize());
-    text("ERROR 404: YOUR PRIVACY NOT FOUND", width / 3, height / 4);
+    text("ERROR 404: YOUR PRIVACY NOT FOUND", width / 2, height / 3);
   }
 }
 
