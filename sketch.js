@@ -25,8 +25,8 @@ function draw() {
     //text("ERROR: YOUR PRIVACY NOT FOUND",width/2.3,height/2.3)
       textAlign(CENTER)
       textSize(30);
- //text("ERROR 404: YOUR PRIVACY NOT FOUND",width/3,height/4);
-    text("ERROR 404: YOUR PRIVACY NOT FOUND");
+ text("ERROR 404: YOUR PRIVACY NOT FOUND",width/3,height/4);
+    //text("ERROR 404: YOUR PRIVACY NOT FOUND");
                                             
     }
 
