@@ -6,7 +6,7 @@ function setup() {
 function draw() {
   fill(255);
   stroke(0);
-  strokeWeight(4);
+  strokeWeight(3);
   
   if (mouseIsPressed) {
     rect(mouseX, mouseY, 100, 60);
@@ -16,12 +16,12 @@ function draw() {
 }
 
 function determineFontSize() {
-  // Determine appropriate font size based on screen size
+  // Determine appropriate font size based on canvas dimensions
   let fontSize;
-  if (windowWidth > windowHeight) { // Landscape orientation (Desktop)
-    fontSize = windowWidth / 50; // Adjust the division factor to suit your preference
+  if (width > height) { // Landscape orientation (Desktop)
+    fontSize = width / 50; // Adjust the division factor to suit your preference
   } else { // Portrait orientation (Mobile)
-    fontSize = windowWidth / 20; // Adjust the division factor to suit your preference
+    fontSize = height / 20; // Adjust the division factor to suit your preference
   }
   return fontSize;
 }
