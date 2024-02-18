@@ -19,14 +19,14 @@ function draw() {
   if(mouseIsPressed == true)
     {
       
-      rect(mouseX,mouseY,200,110);
+      rect(mouseX,mouseY,200,145);
       //rect(mouseX,mouseY,random(100,30) );
       //circle(mouseX,mouseY,90);
     //text("ERROR: YOUR PRIVACY NOT FOUND",width/2.3,height/2.3)
       textAlign(CENTER)
       textSize(30);
-
-    text("ERROR 404: YOUR PRIVACY NOT FOUND",width/3,height/4);
+ //text("ERROR 404: YOUR PRIVACY NOT FOUND",width/3,height/4);
+    text("ERROR 404: YOUR PRIVACY NOT FOUND");
                                             
     }
 
